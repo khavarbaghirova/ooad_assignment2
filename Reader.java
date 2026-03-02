@@ -10,7 +10,16 @@ public class Reader<T> {
     }
 
     public T read() {
-        if (readSeq >= buffer.getWriteSeq()) {
+
+        long writeSeq = buffer.getWriteSeq();
+        long minValidSeq = writeSeq - buffer.getCapacity();
+
+        
+        if (readSeq < minValidSeq) {
+            readSeq = minValidSeq;
+        }
+
+        if (readSeq >= writeSeq) {
             throw new NoSuchElementException("No new data");
         }
 
