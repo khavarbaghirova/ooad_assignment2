@@ -57,12 +57,15 @@ Reading does not remove elements from the buffer
 ## UML Diagrams
 
 ### UML Class Diagram
+<img width="491" height="401" alt="Class Diagram OOAD drawio (1)" src="https://github.com/user-attachments/assets/81fbcd03-b7c4-415d-bf69-30f634fd076b" />
 
 
 ### UML Sequence Diagram for `write()`
+<img width="500" height="341" alt="Seq Diagram 1 OOAD drawio" src="https://github.com/user-attachments/assets/944a5ee2-1cda-4f72-bbaf-921a4ab31d4b" />
 
 
 ### UML Sequence Diagram for `read()`
+<img width="532" height="371" alt="Seq Diagram 2 OOAD drawio" src="https://github.com/user-attachments/assets/97cda4ef-1e81-4f7f-97b4-1b992142b8c2" />
 
 
 ---
