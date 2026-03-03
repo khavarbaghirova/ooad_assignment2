@@ -19,6 +19,7 @@ public class Main {
         System.out.println("Reader 2 reads:");
         System.out.println(reader2.read()); 
 
+        //if buffer is full, next write overwrites oldest element (5)
         writer.write(8);
         System.out.println("Writing: 8 (overwrites 5)");
 

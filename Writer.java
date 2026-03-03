@@ -5,6 +5,7 @@ public class Writer<T> {
         this.buffer = buffer;
     }
 
+    //writes item into the ring buffer
     public void write(T item) {
         buffer.writeRing(item);
     }
